@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busqueda de Alimentos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Selecciona el tipo de dieta</h1>
+    <div id="formDieta">
+        <form action="#" name="formulario">
+            <input type="radio" value="vegetariana" name="validartip">Vegetariana</input type="radio">
+            <input type="radio" value="vegana"name="validartip">Vegana</input type="radio">
+            <input type="radio" value="mediterranea"name="validartip">Mediterranea</input type="radio">
+            <input type="radio" value="rica_en_fibra"name="validartip">Rica en Fibra</input type="radio">
+            <input type="radio" value="todas"name="validartip">Todas</input type="radio">
+            <br><br>
+            <input type="button" onclick="MostrarAlimentos()" value="Busqueda">
+    </form><br>
+    </div>
+    <hr>
+    <br>
+    <div id="resultados">
+    </div>
+</body>
+</html>
